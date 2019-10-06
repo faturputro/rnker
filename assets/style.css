@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
 
+@font-face {
+  font-family: UraeNium;
+  src: url('urae_nium.ttf');
+}
+
 body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -7,6 +12,11 @@ body {
   padding:0;
   background-color: #252528;
   color: #f7f7f7;
+}
+
+.main-logo {
+  color: #50FAFD;
+  font-family: UraeNium;
 }
 
 .header {
@@ -19,9 +29,12 @@ body {
   top:55%;
   left: 50%;
   transform: translate(-50%,-50%);
+  width:30%;
 }
 
-.logo
+.logo {
+
+}
 
 .img-logo {
   opacity: 0;
@@ -38,4 +51,34 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .logo-container {
+    width:60%;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .logo-container {
+    width:60%;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .logo-container {
+    width:60%;
+  }
+  
 }
