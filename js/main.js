@@ -9,7 +9,7 @@ $(document).ready(function() {
       ease: Power4.easeIn
     })
     .to(".img-logo", 1.4, {
-      yPercent: -80,
+      yPercent: -50,
       scaleX: 0.7,
       scaleY: 0.7,
       ease: Expo.easeInOut
