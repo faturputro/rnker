@@ -42,11 +42,7 @@ body {
 
 .header {
   opacity: 0;
-<<<<<<< HEAD
   margin-top: 8rem;
-=======
-  margin-top: 10rem;
->>>>>>> ce3a031b1260ff78c06fc5cf691a3d657a573371
   font-size: 16px;
   letter-spacing: 30px;
   text-transform: uppercase;
@@ -100,9 +96,6 @@ body {
   .header {
     letter-spacing: 16px;
     font-size: 12px;
-<<<<<<< HEAD
     margin-top: 4rem;
-=======
->>>>>>> ce3a031b1260ff78c06fc5cf691a3d657a573371
   }
 }
