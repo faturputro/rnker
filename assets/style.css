@@ -22,6 +22,7 @@ body {
 .header {
   text-transform: uppercase;
   font-weight: 700;
+  z-index:1000;
 }
 
 .logo-container {
@@ -74,7 +75,7 @@ body {
   }
 }
 
-/* 
+/*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
